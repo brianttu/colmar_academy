@@ -1,0 +1,100 @@
+html{
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+}
+
+.container{
+  max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* HEADER */
+
+.header{
+  height: 4rem;
+  display: inline-flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  padding-right: 1rem;
+  margin-top: 0;
+}
+
+.logo img{
+  padding-left: 1.5rem;
+  height: 3rem;
+  align-items: center;
+  display: inline-flex;
+}
+
+.logo #colmar, .logo #academy{
+  font-size: 2rem;
+  display: inline-flex;
+}
+
+.logo #colmar{
+  font-weight: 800;
+  color: #333333;
+}
+
+.logo #academy{
+  margin-left: 0;
+  padding-left: 0;
+  color: #b3b3b3;
+  font-weight: 200;
+}
+
+.headerlinks{
+  font-size: 1rem;
+  font-weight: 400;
+  justify-content: flex-end;
+}
+
+.headerlinks span{
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+
+.headerlinks span:hover{
+  text-decoration: underline;
+  color: #b3b3b3;
+}
+
+/* BANNER */
+
+.banner{
+  display: inline-flex;
+  background-color: #d9d9d9;
+  padding-top: 4rem;
+}
+
+.bannerimage img{
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.bannerinfo{
+  color: #333333;
+}
+
+.bannerinfo h1{
+  font-size: 2.5rem;
+}
+
+.bannerinfo p{
+  font-size: 1.5rem;
+}
+
+.bannerbutton{
+  background-color: #333333;
+}
+
+.bannerbutton p{
+  color: white;
+  font-size: 1.25rem;
+  padding: .5rem 0;
+  justify-content: center;
+  text-align: center;
+}
