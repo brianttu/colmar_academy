@@ -73,7 +73,7 @@ nav.mobile{
 
 /* HEADER MOBILE*/
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 400px) {
   header .logo, header nav {
     display: none;
   }
